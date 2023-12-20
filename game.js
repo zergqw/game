@@ -46,7 +46,7 @@ while(exit === 0){
             console.log('ERROR');
     }
     let exit = readlineSync.question('Хотите сыграть еще раз? (да/нет): ');
-    if (exit !== 'да') {
+    if (exit.toLowerCase()  !== 'да') {
         break;
     } 
 };
